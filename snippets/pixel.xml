@@ -94,14 +94,14 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" revision="pie" remote="extended" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pixel" />
-  <project path="system/core" name="system_core" remote="pixel" />
+  <project path="system/core" name="system_core" revision="pie" remote="extended" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
@@ -109,7 +109,7 @@
 
   <!-- Stuff -->
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
-  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" revision="pasta" remote="extended" />
+  <project path="packages/overlays/Extras" name="packages_overlays_Extras" revision="pasta" remote="extended" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omni" />
   <project path="frameworks/aoscp" name="frameworks_aoscp" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
 </manifest>
