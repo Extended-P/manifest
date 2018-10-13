@@ -38,6 +38,7 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
   <project path="hardware/ril-caf" name="hardware_ril" revision="pie-caf" remote="pixel" />
   <project path="system/qcom" name="system_qcom" remote="pixel" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
 
   <!-- External repos -->
@@ -48,6 +49,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <project path="frameworks/base" name="frameworks_base" revision="pie" remote="extended" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
   <project path="frameworks/support" name="frameworks_support" remote="pixel" />
