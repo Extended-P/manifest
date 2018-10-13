@@ -6,9 +6,21 @@
           revision="pie"
           review="gerrit.pixelexperience.org" />
 
-  <remote name="pixel-devices"
-          fetch="https://github.com/PixelExperience-Devices"
+  <remote name="extended"
+          fetch="https://github.com/Extended-P" />
+
+  <remote name="havoc"
+          fetch="https://github.com/havoc-os/"
           revision="pie" />
+  
+  <remote name="omni"
+          fetch="https://github.com/omnirom/"
+          revision="android-9.0" />
+ 
+  <remote name="aoscp"
+          fetch="https://github.com/CypherOS/"
+          review="https://gerrit.cypheros.co/"
+          revision="refs/heads/poundcake-release" />
 
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
@@ -34,7 +46,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" revision="pie" remote="extended" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -71,10 +83,10 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
-  <project path="packages/apps/CustomSettings" name="packages_apps_CustomSettings" remote="pixel" />
+  <project path="packages/apps/Extras" name="packages_apps_Extras" revision="pie" remote="extended" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" revision="rearrange" remote="extended" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/apps/WallpapersBReel2017" name="packages_apps_WallpapersBReel2017" remote="pixel-gitlab" clone-depth="1" />
@@ -95,4 +107,9 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
 
+  <!-- Stuff -->
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
+  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" revision="pasta" remote="extended" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omni" />
+  <project path="frameworks/aoscp" name="frameworks_aoscp" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
 </manifest>
