@@ -52,7 +52,7 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
-  <project path="frameworks/support" name="frameworks_support" remote="pixel" />
+  <project path="frameworks/support" name="frameworks_support" revision="pie" remote="extended" />
 
   <!-- General repos -->
   <project path="bionic" name="bionic" remote="pixel" />
