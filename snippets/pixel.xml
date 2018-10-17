@@ -55,7 +55,7 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
-  <project path="frameworks/support" name="frameworks_support" remote="pixel" />
+  <project path="frameworks/support" name="frameworks_support" revision="pie" remote="extended" />
 
   <!-- General repos -->
   <project path="bionic" name="bionic" remote="pixel" />
@@ -75,7 +75,7 @@
   <project path="build/kati" name="build_kati" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" revision="pie" remote="extended" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
 
@@ -90,10 +90,10 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
-  <project path="packages/apps/Extras" name="packages_apps_Extras" revision="pie" remote="extended" />
+  <project path="packages/apps/Extras" name="packages_apps_Extras" revision="rearrange" remote="extended" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" revision="rearrange" remote="extended" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" revision="pie" remote="extended" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/apps/WallpapersBReel2017" name="packages_apps_WallpapersBReel2017" remote="pixel-gitlab" clone-depth="1" />
