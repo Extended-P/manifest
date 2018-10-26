@@ -53,7 +53,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" revision="pie" remote="extended" />
+  <project path="frameworks/base" name="frameworks_base" revision="SmartNav" remote="extended" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="pixel" />
@@ -86,7 +86,6 @@
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
-  <project path="hardware/custom/telephony" name="hardware_custom_telephony" remote="pixel" />
   <project path="hardware/custom/keydisabler" name="hardware_custom_keydisabler" remote="pixel" />
   <project path="hardware/custom/telephony" name="hardware_custom_telephony" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
@@ -138,7 +137,7 @@
 
   <!-- Stuff -->
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
-  <project path="packages/overlays/Extras" name="packages_overlays_Extras" revision="pie" remote="extended" />
+  <project path="packages/overlays/Extras" name="packages_overlays_Extras" revision="pasta" remote="extended" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omni" />
   <project path="frameworks/aoscp" name="frameworks_aoscp" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
 </manifest>

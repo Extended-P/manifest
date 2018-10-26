@@ -31,7 +31,3 @@ repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
  mka bacon -jX
 ```
 
-<<<<<<< HEAD
-=======
-[View Code Review](https://gerrit.pixelexperience.org/)
->>>>>>> b94347d... Change org url
