@@ -82,7 +82,7 @@
   <project path="vendor/aosp" name="vendor_aosp" revision="pie" remote="extended" />
   <project path="development" name="development" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" revision="pie" remote="extended" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
