@@ -112,7 +112,6 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/apps/TvSettings" name="packages_apps_TvSettings" remote="pixel" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/apps/WallpapersBReel2017" name="packages_apps_WallpapersBReel2017" remote="pixel-gitlab" clone-depth="1" />
   <project path="packages/apps/WallpapersBReel2018" name="packages_apps_WallpapersBReel2018" remote="pixel-gitlab" clone-depth="1" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
