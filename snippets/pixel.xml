@@ -14,6 +14,9 @@
           fetch="https://gitlab.com/PixelExperience"
           revision="pie" />
 
+  <remote name="ex"
+          fetch="https://github.com/extended-p" />
+
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
@@ -34,11 +37,12 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="ex" revision="pie" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
+  <project path="vendor/overlays/Extras" name="packages_overlays_Extras" remote="ex" revision="pie"/>
 
   <!-- General repos -->
   <project path="bionic" name="bionic" remote="pixel" />
@@ -59,7 +63,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="ex" revision="pie"/>
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
 
@@ -82,7 +86,7 @@
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ex" revision="pie" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixel" />

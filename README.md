@@ -1,14 +1,14 @@
-# Pixel Experience #
+# PE Extended #
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b pie
+repo init -u https://github.com/Extended-P/manifest -b pie
 
 # Sync
-repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
