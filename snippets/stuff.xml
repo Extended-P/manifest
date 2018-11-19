@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ex"
+          fetch="https://github.com/extended-p" />
+  
+  <remote name="invictrix"
+          revision="inv-9.0"
+          fetch="https://github.com/InvictrixROM/"
+          review="review.invictrix.com" />
+
+  <!-- SmartNav -->
+  <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="invictrix" />
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="ex" revision="pie" />
+ 
+  <!-- Extras -->
+  <project path="vendor/overlays/Extras" name="packages_overlays_Extras" remote="ex" revision="pie"/>
+  <project path="packages/apps/ExtraSettings" name="packages_apps_ExtraSettings" remote="ex" revision="pie"/>
+
+</manifest>
